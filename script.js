@@ -33,3 +33,8 @@ botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado);
         document.body.classList.toggle('alto-contraste');
     })
 });
+
+SCroollReveal().reveal('#inicio', {delay: 500});
+SCroollReveal().reveal('#galeria', {delay: 500});
+SCroollReveal().reveal('#tropicalia', {delay: 500});
+SCroollReveal().reveal('#contato', {delay: 500});
